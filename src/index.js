@@ -2,7 +2,7 @@ const course = {
   name: "Programación Backend con Frameworks",
   environment: "Visual Studio Code",
   npackageManager: "PNPM",
-  status: "Configurado",
+  status: "Configuracion",
 };
 
 function createSummary(data) {
@@ -13,3 +13,4 @@ const summary = createSummary(course);
 
 console.log(summary);
 console.table(course);
+
